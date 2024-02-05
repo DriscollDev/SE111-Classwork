@@ -1,18 +1,30 @@
+@font-face {
+    font-family: 'akbar_plain';
+    src: url(simpsonfont-webfont.woff);
+    font-weight: normal;
+    font-style: normal;
+
+}
 #main{
     width: 1000px;
     height: 800;
     background-color: azure;
     border: 1px solid black;
     border-radius: 20px;
+    box-shadow: 3px 2px black;
 }
 body, htal{
     display: flex;
     justify-content: center;
     background-color: cadetblue;
+    
 }
 #header{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: akbar_plain,'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: yellow;
+    text-shadow: 3px 2px black;
 }
 #nav{
     text-align: center;
