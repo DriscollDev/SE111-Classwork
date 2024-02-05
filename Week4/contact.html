@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/simpsonIcon.png" type="image/x-icon">
+    <title>Town of Springfield</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header"><h1>Town of Springfield</h1></div>
+        <!--Navigation-->
+        <div id="nav"><ul>
+            <li class="nav-list"><a href="index.html">Home</a></li>
+            <li class="nav-list"><a href="about.html">About Springfield</a></li>
+            <li class="nav-list"><a href="gallery.html">Pictures of Springfield</a></li>
+            <li class="nav-list"><a href="events.html">Events</a></li>
+            <li class="nav-list"><a href="#">Contact</a></li>
+        </ul></div>
+        <!--Content-->
+        <div id="content" >
+            <!--Content goes here-->
+            <h2 id="section-header">Contact Springfield Today</h2>
+            <p class="section-text" style="width: 100%;">Fill out the form below with questions on Springfield</p>
+            <br>
+            <form action="#" method="get" style="margin-left: 100px;">
+                <label for="firstName">Enter your first name</label>
+                <br>
+                <input type="text" name="firstName" id="firstName" required placeholder="First Name">
+                <br>
+                <label for="lastName">Enter your last name</label>
+                <br>
+                <input type="text" name="lastName" id="lastName" required placeholder="Last Name">
+                <br>
+                <label for="question">Enter your Message</label>
+                <br>
+                <textarea name="question" id="question" cols="50" rows="10" style="resize: none;" placeholder="Message"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+        <div id="footer">&copy;HTML/Javascript Winter 2024 and Town of Springfield</div>
+    </div>
+</body>
+</html>
