@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+        <h1 id="header">Week 6 Javascript Examples</h1>
+        <!--In Document Javascript examples-->
+        <button>Change the Page</button>
+        <button id="promptButton">Press this button</button>
+        <script>
+            alert("The code has moved to the script.js file")
+            document.querySelector("h1").addEventListener("click", function(){
+                document.querySelector('body').style.color = "blue";
+            })
+        </script>
+
+        <script src="script.js"></script>
+</body>
+</html>
